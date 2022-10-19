@@ -1,0 +1,166 @@
+html, body {
+    height:100%;
+} 
+
+body {
+    background: linear-gradient(#951869, #1758a3);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.gameLogo {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: transparent;
+    font-size: 200px;
+    -webkit-text-stroke: 2px black;
+}
+@-webkit-keyframes animationgradienttitle {
+    0% {
+      background-position: 0 1600px;
+    }
+    100% {
+      background-position: 1600px 0;
+    }
+  }
+  @keyframes animationgradienttitle {
+    0% {
+      background-position: 0 1600px;
+    }
+    100% {
+      background-position: 1600px 0;
+    }
+  }
+
+.gameLogo {
+    color: #fc3735;
+    background: -webkit-linear-gradient(left, #f60fe3, #4c58d5, #c9112f);
+    background-size: 1600px 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-name: animationgradienttitle;
+            animation-name: animationgradienttitle;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+
+
+/* ++++++++++++ LOGIN.php ++++++++++++++ */
+
+.form {
+    position: absolute;
+}
+
+.form-control, .btn{        
+    border-radius: 3px;
+}
+.signup-form{
+    width: 390px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.signup-form form{
+    color: #999;
+    border: 1px solid lightcoral;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: rgb(228, 37, 178);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signup-form h2 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+}
+.signup-form hr {
+    margin: 0 -30px 20px;
+}    
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form .row div:first-child{
+    padding-right: 10px;
+}
+
+.signup-form .btn{        
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    min-width: 140px;
+}
+
+.signup-form:hover, .shootBtn, .table {
+    z-index: 1;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+
+}
+/* ++++++++++++ GAME.php Dart Board ++++++++++++++ */
+
+.redDot {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+/* ++++++++++++ GAME.php Table ++++++++++++++ */
+
+.flex-container {
+    display: flex;
+}
+
+
+.flex-child {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    align-items: center;
+    margin-right: 20px;
+}
+
+.table {
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(#eb2fa9, #2f86e9) !important;
+    padding: 200px;
+    width: 300px;
+}
+
+.shootButton{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.shootBtn {
+    font-size: 50px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+th, td {
+    background: transparent;
+    border: 1px solid #09c5f8;
+    color: #333;
+}
+
+
+/* ++++++++++++ Winner.php ++++++++++++++ */
+
+p {
+    text-align: center;
+}
